@@ -66,3 +66,26 @@ a {
     width: 200px;
     height: 200px;
 }
+
+/* always in this order: link> visited> hover> active */
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    font-size: small;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    font-weight: bold;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
