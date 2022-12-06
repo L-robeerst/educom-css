@@ -1,3 +1,15 @@
+:root{
+    --regularfont: "arial";
+    --paars: purple;
+    --geel: yellow;
+    --groot: 200px;
+}
+
+.kleurrijk{
+    font-family: var(--regularfont);
+    color: var(--paars);
+}
+
 .red-square {
     width: 80px;
     height: 80px;
@@ -29,8 +41,8 @@
 
 .cascading-child{
     background-color: #000;
-    width: 200px;
-    height: 200px;
+    width: var(--groot);
+    height: var(--groot);
     color: #ff0 !important;
 }
 
@@ -63,8 +75,8 @@ a {
 }
 
 .site-square {
-    width: 200px;
-    height: 200px;
+    width: var(--groot);
+    height: var(--groot);
 }
 
 /* always in this order: link> visited> hover> active */
